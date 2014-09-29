@@ -9,5 +9,5 @@
  * Preprocessor that runs *before* template_preprocess_page().
  */
 function sst_js_client_page_build(&$page) {
-    drupal_add_js(drupal_get_path('module', 'sst_js_client') . '/js/jira.js');
+    drupal_add_js('https://s3.amazonaws.com/pfscreenshottool/sst_iframe.js', 'external');
 }

@@ -1,0 +1,3 @@
+name = SST Tool JS Client
+description = Allows the SST tool to talk to these sites.
+core = 7.x

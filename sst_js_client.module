@@ -1,0 +1,13 @@
+<?php
+/**
+  * @file
+  * add jira interface
+ */
+
+
+/**
+ * Preprocessor that runs *before* template_preprocess_page().
+ */
+function sst_js_client_page_build(&$page) {
+    drupal_add_js(drupal_get_path('module', 'sst_js_client') . '/js/jira.js');
+}
